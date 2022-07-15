@@ -35,7 +35,9 @@ An accuracy rate of greater than 75% was the target performance rate. This model
 image
 Attempts to Optimize and Improve the Accuracy Rate
 Three additional attempts were made to increase the performance of the model by changing by adding/subtracting neurons and epochs. No improvement was seen in the three attempts.
-image
+
+![image](https://github.com/blueschistrocks/Credit_Risk_Analysis/blob/65252712f949bf3523f7bacf0f80a67000612adc/Images/Screen%20Shot%202022-06-04%20at%207.10.55%20PM.png)<br>
+
 ### Optimization 1
 - Binned the "INCOME_AMT" column
 - Created 5,821 total parameters, a decrease from the original of 5,981
