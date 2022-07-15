@@ -40,31 +40,31 @@ Three additional attempts were made to increase the performance of the model by 
 
 ### Optimization 1
 - Binned the "INCOME_AMT" column
-- Created 5,821 total parameters, a decrease from the original of 5,981
-- Accuracy decreased from 72.91% to 72.86%
+- Created 5,981 total parameters, same as the original of 5,981
+- Accuracy decreased from 72.91% to 72.89%
 - Loss was increased from 56.22% to 56.33%
 
 ![image](https://github.com/blueschistrocks/Neural_Network_Charity_Analysis/blob/7f92ef7fe2de3ae73903507e429aeb1e59ed7c70/Images/Op1.png)<br>
 
 ### Optimization 2:
-Removed the “ORGANIZATION” column
-Binned the “INCOME_AMT” column
-Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
-Increased neurons to 200 for the first hidden layer and 100 for the second hidden layer
-Created 28,001 total parameters, an increase from the original of 5,981
-Accuracy decreased from 72.91% to 72.63%
-Loss increased by from 56.22% to 57.49%
+- Removed the “ORGANIZATION” column
+- Binned the “INCOME_AMT” column
+- Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
+- Increased neurons to 200 for the first hidden layer and 100 for the second hidden layer
+- Created 28,001 total parameters, an increase from the original of 5,981
+- Accuracy decreased from 72.91% to 72.63%
+- Loss increased by from 56.22% to 57.49%
 
 ![image](https://github.com/blueschistrocks/Neural_Network_Charity_Analysis/blob/7f92ef7fe2de3ae73903507e429aeb1e59ed7c70/Images/Op2.png)<br>
 
 ### Optimization 3:
-Binned “INCOME_AMT” and “AFFILIATION” column
-Removed the “ORGANIZATION” column
-Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
-Increased neurons to 400 for the first hidden layer and 200 for the second hidden layer
-o	Created 92,801 total parameters, an increase from the original of 5,981
-o	Accuracy decreased 72.91% to 72.33%
-o	Loss increased from 56.22% to 57.51%
+- Binned “INCOME_AMT” and “AFFILIATION” column
+- Removed the “ORGANIZATION” column
+- Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
+- Increased neurons to 400 for the first hidden layer and 200 for the second hidden layer
+- Created 92,801 total parameters, an increase from the original of 5,981
+- Accuracy decreased 72.91% to 72.33%
+- Loss increased from 56.22% to 57.52%
 
 ![image](https://github.com/blueschistrocks/Neural_Network_Charity_Analysis/blob/7f92ef7fe2de3ae73903507e429aeb1e59ed7c70/Images/op3.png)<br>
 
