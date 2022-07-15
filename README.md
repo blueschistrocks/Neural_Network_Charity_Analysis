@@ -31,7 +31,7 @@ The following parameters were used to compile, train, and evaluate the model. Th
 - The second hidden layer had 80 inputs, 30 neurons.
 - The output layer had 30 inputs, 1 neuron.
 - Both the first and second hidden layers were activated using the Rectified Linear Unit function (relu). The output layer was activated using the Sigmoid function.
-An accuracy rate of greater than 75% was the target performance rate. This model only achieved an accuracy rate of 73.73%
+An accuracy rate of greater than 75% was the target performance rate. This model only achieved an accuracy rate of 72.91%
 image
 Attempts to Optimize and Improve the Accuracy Rate
 Three additional attempts were made to increase the performance of the model by changing by adding/subtracting neurons and epochs. No improvement was seen in the three attempts.
@@ -41,8 +41,8 @@ Three additional attempts were made to increase the performance of the model by 
 ### Optimization 1
 - Binned the "INCOME_AMT" column
 - Created 5,821 total parameters, a decrease from the original of 5,981
-- Accuracy decreased 0.78% from 73.73%% to 72.95%
-- Loss was reduced by 0.10% from 56.33% to 56.23%
+- Accuracy decreased from 72.91% to 72.86%
+- Loss was increased from 56.22% to 56.33%
 image
 
 ### Optimization 2:
@@ -51,8 +51,8 @@ Binned the “INCOME_AMT” column
 Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
 Increased neurons to 200 for the first hidden layer and 100 for the second hidden layer
 Created 28,001 total parameters, an increase from the original of 5,981
-Accuracy decreased 0.11% from 72.33% to 72.65%
-Loss increased by 1.75% from 58.08% to 58.02%
+Accuracy decreased from 72.91% to 72.63%
+Loss increased by from 56.22% to 57.49%
 
 image
 ### Optimization 3:
@@ -61,8 +61,8 @@ Removed the “ORGANIZATION” column
 Removed “SPECIAL_CONSIDERATIONS_Y” column from features as it is redundant to “SPECIAL_CONSIDERATIONS_N”
 Increased neurons to 400 for the first hidden layer and 200 for the second hidden layer
 o	Created 92,801 total parameters, an increase from the original of 5,981
-o	Accuracy increased 0.19% from 72.33% to 72.33%
-o	Loss decreased by 1.82% from 58.08% to 57.51%
+o	Accuracy decreased 72.91% to 72.33%
+o	Loss increased from 56.22% to 57.51%
 image
 ## Summary
 In summary, the model and the three optimizations did not achieve the desired result of greater than 75%.
