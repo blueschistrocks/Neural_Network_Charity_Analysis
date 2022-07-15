@@ -6,20 +6,20 @@ This module was an exercise in Neural Networks and Deep Learning Models.
 -  TensorFlow, Scikit-learn, Keras and Pandas.
 
 ## Module Overview
-The purpose of this analysis was to explore and implement neural networks using TensorFlow in Python. Neural networks machine learning algorithms can recognize features and patterns in ta dataset. Modeled after the human brain neural networks are modeled contain neurons in layers that perform individual computations.
+This analysis was conducted to use TensorFlow in a Python enviromental to employ machine learned and test differen methods. Neural networks machine learning algorithms can recognize features and patterns in a dataset. Modeled after the human brain neural networks are modeled contain neurons in layers that perform individual computations.
 
-In this module, we learned:
+In this module we learned the following:
 - How to create a basic neural network
- - Preprocess and prepare the datasets
+ - Preprocess and prepare datasets
 -  Build a training and testing set
-- Measure the model accuracy
+- Measure the model accuracies
 - Add additional neurons and hidden layers to optimize the model
 - How to select a best model to use for our dataset
-AlphabetSoup is requesting a mathematical data solution that will help determine which organizations merit donating to and which ones are considered to high-risk. Not every donation AlphabetSoup has made to an organization has been successful.   
+AlphabetSoup requested a mathematical data solution to help determine which organizations merit donating to and which ones are considered to high-risk.   
 
 ## Task
 
-The task is to analyze the impact of each AlphabetSoup organization that they donated to in order to vet them and determine if the AlphabetSoup's money will be used successfully. To do this AlphabetSoup’s needs a binary classifier that will predict if an organization uses the donation successfully. 
+The task is to analyze the impact of each AlphabetSoup organization that they donated to in order to assess them and determine if the AlphabetSoup's money will be used successfully. To do this AlphabetSoup’s needs a binary classifier that will predict if an organization uses the donation successfully. 
 
 ## Preprocessing the Data for a Neural Network
 A CSV file “charity_data.csv” containing more than 34,000 organizations that have received funding from AlphabetSoup over the years. 
